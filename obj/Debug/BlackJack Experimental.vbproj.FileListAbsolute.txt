@@ -1,0 +1,24 @@
+C:\Users\Mateus\source\repos\BlackJack Experimental\obj\Debug\BlackJack Experimental.vbprojAssemblyReference.cache
+C:\Users\Mateus\source\repos\BlackJack Experimental\obj\Debug\BlackJack_Experimental.Resources.resources
+C:\Users\Mateus\source\repos\BlackJack Experimental\obj\Debug\BlackJack Experimental.vbproj.GenerateResource.cache
+C:\Users\Mateus\source\repos\BlackJack Experimental\obj\Debug\BlackJack Experimental.vbproj.CoreCompileInputs.cache
+C:\Users\Mateus\source\repos\BlackJack Experimental\bin\Debug\BlackJack Experimental.exe.config
+C:\Users\Mateus\source\repos\BlackJack Experimental\bin\Debug\BlackJack Experimental.exe
+C:\Users\Mateus\source\repos\BlackJack Experimental\bin\Debug\BlackJack Experimental.pdb
+C:\Users\Mateus\source\repos\BlackJack Experimental\bin\Debug\BlackJack Experimental.xml
+C:\Users\Mateus\source\repos\BlackJack Experimental\obj\Debug\BlackJack Experimental.exe
+C:\Users\Mateus\source\repos\BlackJack Experimental\obj\Debug\BlackJack Experimental.xml
+C:\Users\Mateus\source\repos\BlackJack Experimental\obj\Debug\BlackJack Experimental.pdb
+C:\Users\Mateus\source\repos\BlackJack Experimental\obj\Debug\BlackJack_Experimental.design.resources
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\bin\Debug\BlackJack Experimental.exe.config
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\bin\Debug\BlackJack Experimental.exe
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\bin\Debug\BlackJack Experimental.pdb
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\bin\Debug\BlackJack Experimental.xml
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\obj\Debug\BlackJack Experimental.vbprojAssemblyReference.cache
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\obj\Debug\BlackJack_Experimental.design.resources
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\obj\Debug\BlackJack_Experimental.Resources.resources
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\obj\Debug\BlackJack Experimental.vbproj.GenerateResource.cache
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\obj\Debug\BlackJack Experimental.vbproj.CoreCompileInputs.cache
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\obj\Debug\BlackJack Experimental.exe
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\obj\Debug\BlackJack Experimental.xml
+C:\Users\Mateus\Desktop\BlackJack - Projeto Final\obj\Debug\BlackJack Experimental.pdb

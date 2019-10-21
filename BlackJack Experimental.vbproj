@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36E7ED90-B62E-4935-AA40-54E5A1AE9AAC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BlackJack_Experimental.My.MyApplication</StartupObject>
+    <RootNamespace>BlackJack_Experimental</RootNamespace>
+    <AssemblyName>BlackJack Experimental</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BlackJack Experimental.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BlackJack Experimental.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icons-Land-Metro-Raster-Sport-Casino-Playing-Cards.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2c.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2h.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3c.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3h.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4c.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4h.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5c.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5h.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6c.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6h.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7c.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7h.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8c.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8h.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9c.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9d.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9h.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9s.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ac.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ah.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\as.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\js.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ks.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qd.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qs.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\td.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ts.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bckgrnd blckjck.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons-Land-Metro-Raster-Sport-Casino-Playing-Cards.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
